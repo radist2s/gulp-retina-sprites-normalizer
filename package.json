@@ -24,5 +24,13 @@
     "resize"
   ],
   "author": "radist2s@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radist2s/gulp-retina-sprites-normalizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/radist2s/gulp-retina-sprites-normalizer/issues"
+  },
+  "homepage": "https://github.com/radist2s/gulp-retina-sprites-normalizer#readme"
 }
