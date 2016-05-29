@@ -188,7 +188,7 @@ class ImagesPadding {
                     .on('end', function () {
                         retinaFile.contents = imageBufferRetina
 
-                        resolve('ret')
+                        resolve()
                     })
             })
 
@@ -209,7 +209,7 @@ class ImagesPadding {
                         .on('end', function () {
                             normalFile.contents = imageBufferNormal
 
-                            resolve('norm')
+                            resolve()
                         })
                 })
             }
