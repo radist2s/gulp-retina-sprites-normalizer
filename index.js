@@ -1,6 +1,6 @@
 'use strict'
 
-const PLUGIN_NAME = 'gulp-retina-sprites-padding'
+const PLUGIN_NAME = 'gulp-retina-sprites-normalizer'
 
 var path = require('path'),
     through = require('through'),
@@ -19,7 +19,7 @@ function unrelative(cwd, glob) {
     return mod + path.resolve(cwd, glob);
 }
 
-class ImagesPadding {
+class ImagesPadder {
     constructor(options) {
         this.images = []
 
@@ -222,15 +222,15 @@ class ImagesPadding {
     }
 }
 
-ImagesPadding.prototype.retinaSrcFilter = '**/*2x.png'
-ImagesPadding.prototype.retinaFileSuffix = '@2x.png'
+ImagesPadder.prototype.retinaSrcFilter = '**/*2x.png'
+ImagesPadder.prototype.retinaFileSuffix = '@2x.png'
 
-function imagesPadding(options) {
-    var imagesPaddingInstance = new ImagesPadding(options)
+function imagesPadder(options) {
+    var imagesPaddingInstance = new ImagesPadder(options)
 
     return imagesPaddingInstance.stream
 }
 
-imagesPadding.ImagesPadding = ImagesPadding
+imagesPadder.ImagesPadding = ImagesPadder
 
-module.exports = imagesPadding
+module.exports = imagesPadder

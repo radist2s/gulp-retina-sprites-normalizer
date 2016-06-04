@@ -1,6 +1,6 @@
 {
   "name": "gulp-retina-sprites-normalizer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Autoresize incorrect retina sprites",
   "main": "index.js",
   "directories": {
@@ -26,6 +26,7 @@
   ],
   "author": "radist2s@gmail.com",
   "license": "ISC",
+  "readmeFilename": "README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/radist2s/gulp-retina-sprites-normalizer.git"
