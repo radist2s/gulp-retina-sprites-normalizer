@@ -12,7 +12,7 @@ It's useful with [spritesmith](https://github.com/Ensighten/spritesmith). You ca
 Install with [npm](https://www.npmjs.com/)
 
 ```sh
-$ npm i gulp-css-freezer --save-dev
+$ npm i gulp-retina-sprites-normalizer --save-dev
 ```
 
 ## Usage
