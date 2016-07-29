@@ -1,6 +1,6 @@
 {
   "name": "gulp-retina-sprites-normalizer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Autoresize incorrect retina sprites",
   "main": "index.js",
   "directories": {
